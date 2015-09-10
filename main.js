@@ -18,4 +18,4 @@ function triggeredInput() {
   }, 4);
 };
 
-input.addEventListener('paste', triggeredInput);
+input.addEventListener('keydown', triggeredInput);

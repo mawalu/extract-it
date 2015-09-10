@@ -20,6 +20,7 @@ input {
     border-radius: 3px;
     width: 35em;
     padding: .5em .8em;
+    color: white;
 }
 input:focus {
     border: 1px solid royalblue;
