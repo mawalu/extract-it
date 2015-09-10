@@ -1,7 +1,9 @@
 var input = document.querySelector('#leInput'),
     commands = {
-      ".tar": "tar -a",
-      ".tar.gz": "tar -abc"
+      '.tar': 'tar xfv',
+      '.zip': 'unzip',
+      '.tar.bz2': 'tar xvfI',
+      '.tar.gz': 'tar xfvz',
     };
 
 input.addEventListener('paste', function(e) {
