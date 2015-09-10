@@ -4,6 +4,7 @@ var input = document.querySelector('#leInput'),
       '.zip': 'unzip',
       '.tar.bz2': 'tar jxvf',
       '.tar.gz': 'tar xfvz',
+      '.tar.bz': 'tar xjf',
     };
 
 function triggeredInput() {
