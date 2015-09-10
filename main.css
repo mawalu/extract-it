@@ -1,0 +1,9 @@
+input, input:active {
+  box-shadow: none;
+  webkit-box-shadow: none;
+}
+
+#leInput {
+  font-size: 2em;
+  height: 60px;
+}
