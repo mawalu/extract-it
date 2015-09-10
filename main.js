@@ -18,4 +18,7 @@ function triggeredInput() {
   }, 4);
 };
 
-input.addEventListener('keydown', triggeredInput);
+input.addEventListener('paste', triggeredInput);
+input.addEventListener('keydown', function(e) {
+  if(e.keyCode == 13) triggeredInput();
+});
