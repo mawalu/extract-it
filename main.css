@@ -2,10 +2,11 @@ body {
     background-color: #222;
     padding-top: 5em;
     text-align: center;
-}
-h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 400;
+    color: white;
+}
+h1 {
     font-size: 11em;
     font-size: calc(5vw + 5em);;
     letter-spacing: 2px;
@@ -13,15 +14,12 @@ h1 {
     margin-bottom: .2em;
 }
 input {
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2em;
-    font-weight: 200;
     border: 1px solid #666;
     background-color: transparent;
     border-radius: 3px;
     width: 35em;
     padding: .5em .8em;
-    color: white;
 }
 input:focus {
     border: 1px solid royalblue;
@@ -36,4 +34,7 @@ input:focus {
     font-size: 2em;
     color: white;
     padding: .3em;
+}
+p {
+  color: #666;
 }
