@@ -2,7 +2,7 @@ var input = document.querySelector('#leInput'),
     commands = {
       '.tar': 'tar xfv',
       '.zip': 'unzip',
-      '.tar.bz2': 'tar xvfI',
+      '.tar.bz2': 'tar jxvf',
       '.tar.gz': 'tar xfvz',
     };
 

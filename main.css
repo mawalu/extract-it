@@ -27,3 +27,13 @@ input:focus {
     border: 1px solid royalblue;
     outline: none;
 }
+#links {
+    position: absolute;
+    bottom: 0;
+    right: .5em;
+}
+.fa {
+    font-size: 2em;
+    color: white;
+    padding: .3em;
+}
