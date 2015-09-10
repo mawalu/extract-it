@@ -1,2 +1,6 @@
-# extractor
-because nobody can remember tar commands
+# extract it!
+A simple input box which transforms filenames into extract commands for Linux & Mac on paste or when you press enter.
+
+Supported extensions: .tar, .tar.bz, .tar.bz2, .zip
+
+Design by [@niklasbuschmann](https://github.com/niklasbuschmann)
