@@ -6,7 +6,7 @@ var input = document.querySelector('#leInput'),
       '.tar.gz': 'tar xfvz',
     };
 
-input.addEventListener('paste', function(e) {
+function triggeredInput() {
   setTimeout(function(){
     var file = input.value;
     Object.keys(commands).forEach(function(ext) {
@@ -16,4 +16,6 @@ input.addEventListener('paste', function(e) {
       }
     });
   }, 4);
-});
+};
+
+input.addEventListener('paste', triggeredInput);
