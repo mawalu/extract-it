@@ -5,6 +5,16 @@ var input = document.querySelector('#leInput'),
       '.tar.bz2': 'tar jxvf',
       '.tar.gz': 'tar xfvz',
       '.tar.bz': 'tar xjf',
+      '.tar.xz': 'tar xvJf',
+      '.lzma': 'unlzma',
+      '.bz2': 'bunzip2',
+      '.rar': 'unrar',
+      '.gz': 'ungzip',
+      '.tbgz2': 'tar xvjf',
+      '.tgz': 'tar xvzf',
+      '.Z': 'uncompress',
+      '.7z': '7z x ',
+      '.xz': 'unxz',
     };
 
 function triggeredInput() {
