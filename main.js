@@ -17,8 +17,17 @@ var input = document.querySelector('#leInput'),
     };
 
 function triggeredInput() {
-  setTimeout(function(){
+  setTimeout(function() {
     var file = input.value;
+    // If a command has already been given, ignore
+    var extAlreadyGiven = false;
+    Object.keys(commands).forEach(function(ext) {
+        if (input.value.indexOf(commands[ext]) > -1) extAlreadyGiven = true;
+    });
+
+    if (extAlreadyGiven) return;
+
+    // Find the command for given extension
     Object.keys(commands).forEach(function(ext) {
       if(file.substr(-ext.length) == ext) {
         input.value = commands[ext] + ' ' + file;
