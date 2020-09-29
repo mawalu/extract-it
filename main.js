@@ -14,6 +14,7 @@ var input = document.querySelector('#leInput'),
       '.Z': 'uncompress',
       '.7z': '7z x ',
       '.xz': 'unxz',
+      '.gz': 'gunzip'
     };
 
 function triggeredInput() {
